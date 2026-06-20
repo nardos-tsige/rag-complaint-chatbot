@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large files)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.parquet
+data/processed/*.csv
+!data/raw/README.md
+!data/processed/README.md
+
+# Vector store
+vector_store/
+*.faiss
+*.index
+*.chroma
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/*.html
+reports/*.pdf
+
+# Models
+models/
+*.pt
+*.pth
+*.bin
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.huggingface/
+
+# Large files
+*.h5
+*.pb
+*.onnx
+*.tflite
+*.joblib
+*.pkl
