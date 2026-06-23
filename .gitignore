@@ -31,7 +31,6 @@ wheels/
 data/raw/*.csv
 data/raw/*.zip
 data/raw/*.parquet
-data/processed/*.csv
 !data/raw/README.md
 !data/processed/README.md
 
