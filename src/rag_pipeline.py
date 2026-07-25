@@ -1,8 +1,10 @@
+# src/rag_pipeline.py
 import numpy as np
 from typing import List, Dict, Any, Optional
 import logging
 from src.embeddings import EmbeddingGenerator
 from src.vector_store import FAISSVectorStore
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

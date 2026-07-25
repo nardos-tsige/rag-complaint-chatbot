@@ -1,3 +1,4 @@
+# src/preprocess.py
 import pandas as pd
 import numpy as np
 import re
@@ -55,7 +56,7 @@ class ComplaintPreprocessor:
         before = len(df)
         filtered_df = df[df['Consumer complaint narrative'].notna() & 
                         (df['Consumer complaint narrative'].str.strip() != '')].copy()
-        after = len(filtered_df)
+        after = len(df)
         logger.info(f"Removed {before - after:,} records with empty narratives")
         return filtered_df
     
