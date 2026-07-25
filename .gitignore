@@ -28,10 +28,12 @@ vector_store/
 *.swp 
 *.swo 
  
-# Jupyter 
-.ipynb_checkpoints/ 
-*.ipynb 
- 
 # OS 
 .DS_Store 
 Thumbs.db 
+ 
+# Jupyter - ignore checkpoints only 
+.ipynb_checkpoints/ 
+ 
+# Dagster temp folders 
+.tmp_dagster_home_*/ 
