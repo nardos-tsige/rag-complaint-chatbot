@@ -1,9 +1,3 @@
-
----
-
-### 2. Data Folder README (`data/README.md`)
-
-```markdown
 # Data Folder
 
 ## Raw Data
